@@ -65,6 +65,7 @@ section{
 	margin-top: 50px;
 	background: rgba(0, 0, 0, 0.5);
 	padding: 22px;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	height: 411px;
 }
@@ -100,6 +101,7 @@ section{
 	height: 369px;
 	background: url(img/photo.jpg);
 	background-size: cover;
+	-webkit-box-shadow: 0px 0px 3px 1px black;
 	box-shadow: 0px 0px 3px 1px black;
 }
 .video-layer{
@@ -137,6 +139,9 @@ section a{
 	position:relative;
 
 }
+
+
+
 iframe{
 	width: 85%;
 }
@@ -174,6 +179,7 @@ display: block;
 }
 .p-left{
 	padding-left: 60px;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -305,8 +311,15 @@ footer{
 		display:none;
 	}
 	.social{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-  		flex-direction: row;
+  		-webkit-box-orient: horizontal;
+  		-webkit-box-direction: normal;
+  		-ms-flex-direction: row;
+  		    flex-direction: row;
+  		-webkit-box-pack: center;
+  		   -ms-flex-pack: center;
   		justify-content: center;
   		width:100%;
   		height: auto;
