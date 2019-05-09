@@ -17,9 +17,4 @@ let bgWidth=$(".wrap").width();
 let bgHeight=bgWidth/100*83.4;
  $(".wrap").height(bgHeight);
 }
-
-$(window).resize(function(){
-	let bgWidth=$(".wrap").width();
-let bgHeight=bgWidth/100*83.4;
- $(".wrap").height(bgHeight);
-});
+$(window).resize(calcHeight);

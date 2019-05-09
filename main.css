@@ -5,6 +5,7 @@
    body{
    	margin: 0;
    	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   	background: #d5d4c3;
    	color: #403d3d;
    	font-size: 15px;
    	text-shadow: 0 0 3px #66635f;
@@ -125,8 +126,6 @@ h5{
 }
 .middle-block-blog p{
 	margin: 35px auto;
-
-	
 }
 section a{
 	color: #403d3d;
@@ -180,20 +179,22 @@ footer{
 	text-align: center;
 	font-size: 13px;
 }
+
+
+
 @media (max-width: 1199px) {
 	.wrap{
-	width: 100%;
-	height: auto;
+		width: 100%;
+		height: auto;
 	}
 	nav{
 		padding-right:8.67%;
 	}
 	nav a{
-	 font-size: 1.5vw;
-	 padding: 6.5% 1.16% 3.3%;
+		 font-size: 1.5vw;
+		 padding: 6.5% 1.16% 3.3%;
 	}
 	.logo{
-		display:none;
 		width:25%;
 		height: 10%;
 		top: 2%;
@@ -206,48 +207,109 @@ footer{
 		padding: 2.2% 1.83%;
 		margin-top: 3.5%;
 		margin-left: 12.15%;
-		/*margin-top:0;*/
+		
 	}
 	.context{
 		width:60%;
-
 	}
 	.context h2{
-	font-size: 2.5vw;
-	margin-left: 3.42%;
-	line-height: .5;
+		font-size: 2.5vw;
+		margin-left: 3.42%;
+		line-height: .5;
 	
 	}
 	.context h2:first-child{
-	margin-top: 9.7%;
+		margin-top: 9.7%;
 	}
 	.context ul{
-		/*padding-top: 1%;*/
 		padding-left:10%;
 		margin-left: 0;
 	}
 	
-	.context a{
+	.context a,.video-layer p, .video-layer a{
 		line-height: 1.5;
 		font-size: 1.5vw;
 	}
 	.photo{
 		width: 32%;
 		height: 100%;
-		/*width: 23.1%;
-		height: 36.9%;*/
 	}
+
 	.video-layer{
-		display: none;
-		width:100%;
+		margin-left: 12.17%;
+		width: 75.7%;
+		height: 41.1%;;
 	}
-	/*.float-none{
-		float:none;
-		width:100% !important;
+	.w-285px{
+		width: 27%;
+	}
+
+	.video-layer h5 {
+	    font-size: 1.8vw;
+	    margin: 2vh auto 2%;
 	}
 	.video-img>img{
-		/*width:100%;
-	}*
+		width:90%;
+	}
+	.video-img a>img{
+	width: 31.86%;
+	
+	}
+	.middle-block-blog{
+		width:43%;
+	}
+	.middle-block-blog p{
+		margin: 3% auto;
+	}
+	.wmd{
+		width:25%;
+	}
+	.social{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.social img {
+	    margin: 1vw;
+	    width: 3vw;
+    }
+	.p-left {
+	    padding-left: 1vw;
+	}
+}
+@media (max-width: 768px) {
 
+	.video-layer{
+		height: auto;
+	}
+	.w-285px{
+		width: 31.4%;
+	}
+	
+	.video-img a>img{
+		width: 23.86%;
+	}
+	.middle-block-blog{
+		width:68%;
+	}
+	.float-md-none{
+		float:none;
+		clear:both;
+		width:100%;
+		padding:0;
+		margin: 3vh auto;
+	}
+	.d-md-none{
+		display:none;
+	}
+	.social{
+		display: flex;
+  		flex-direction: row;
+  		justify-content: center;
+  		width:100%;
+  		height: auto;
+
+	}
+	
+	
 
 }
