@@ -135,8 +135,11 @@ section a{
 }
 .video-block {
 	position:relative;
-}
 
+}
+iframe{
+	width: 85%;
+}
 .video-img{
 display: block;
  
@@ -312,13 +315,13 @@ footer{
 }
 @media (max-width: 460px) {
 	nav a{
-		 font-size: 2vw;
-		 padding: 6.5% .7% 3.3%;
-		 line-height: 2vh;
+		font-size: 2vw;
+		padding: 6.5% .7% 3.3%;
+		line-height: 2vh;
 	}
 	.context ul {
-     padding-top:0; 
-     margin-top:0;
+	    padding-top:0; 
+	    margin-top:0;
 	}
 	.context a, .video-layer p, .video-layer a {
 	  	font-size: 2vw;
