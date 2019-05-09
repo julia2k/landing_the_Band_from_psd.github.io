@@ -309,7 +309,41 @@ footer{
   		height: auto;
 
 	}
+}
+@media (max-width: 460px) {
+	nav a{
+		 font-size: 2vw;
+		 padding: 6.5% .7% 3.3%;
+		 line-height: 2vh;
+	}
+	.context ul {
+     padding-top:0; 
+	}
+	.context a, .video-layer p, .video-layer a {
+	  	font-size: 2vw;
+	}
 	
-	
+	.w-285px{
+		width: 100%;
+		
+	}
+	.video-block{
+		width: 55%;
+		float:left;
 
+	}
+	.video-layer a{
+		display: block;
+		font-size: 2.5vw;	   
+	}
+	
+	.middle-block-blog{
+		clear: both;
+		width:100%;
+		
+	}
+	.video-layer h5 {
+	    font-size: 2.8vw;
+	    margin: 5vh auto;
+	}
 }
